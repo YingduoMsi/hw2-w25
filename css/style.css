@@ -1,0 +1,115 @@
+/* Style the body of the page with:
+Default text is Arial font with Verdana as a fallback option
+Black background (use hexadecimal values)
+White font (use hexadecimal values)
+Margin of 20px on the top and sides.  None on the bottom. */
+
+body{
+    font-family: Arial, Verdana，sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0; /* 底部边距为 0 */
+
+}
+
+/* h1*/
+h1 {
+    font-size: 42px;
+    text-align: center; 
+    padding: 15px;
+  }
+  
+  /* h2*/
+  h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+  }
+  
+  /* Style the default paragraphs */
+  p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  /* Style the default style for images */
+  img {
+    width: 250px;
+    display: block; /* All images are centered */
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px dashed white;
+  }
+  /*Style the default div elements*/
+  div {
+    min-height: 125px; /* 最小高度 125px */
+    padding: 20px; /* 内边距 20px */
+    border: 3px solid white; /* 3px 白色实线边框 */
+  }
+
+  .introduction {
+    border-radius: 15px; /* 设置圆角，15px */
+    margin-top: 15px; /* 顶部外边距 15px */
+    line-height: 2; /* 设置双倍行距 */
+  }
+
+  .red {
+    background-color: #FF0000; /* 红色背景 */
+    text-align: right; /* 文本右对齐 */
+    margin-left: 50px; /* 左侧外边距 50px */
+    border-bottom: 2px; /* 底部 2px 白色实线边框 */
+    border-left: 5px; /* 左侧 5px 白色实线边框 */
+  }
+
+  .blue {
+    background-color: #0000FF; /* 蓝色背景 */
+    text-align: left; /* 文本左对齐 */
+    margin-right: 50px; /* 右侧外边距 50px */
+    border-right: 5px solid white; /* 右侧 5px 白色实线边框 */
+    border-top: 2px solid white; /* 顶部 2px 白色实线边框 */
+  }
+  
+  /*这里不确定。老登乱说的*/
+  .blue h2, .blue p {
+    color: #C4C4C4; /* 设置文字颜色为 #C4C4C4 */
+  }
+
+  /* .yellow 类样式 */
+.yellow {
+    background-color: #FFFF00; /* 黄色背景 */
+    text-align: right; /* 文本右对齐 */
+    margin-left: 50px; /* 左侧外边距 50px */
+    border-bottom: 2px solid white; /* 底部 2px 白色实线边框 */
+    border-left: 5px solid white; /* 左侧 5px 白色实线边框 */
+  }
+  
+  .yellow p {
+    color: #707070; /* 为 .yellow 内的段落文字设置 #707070 颜色 */
+  }
+  
+  /* .green 类样式 */
+  .green {
+    background-color: #038500; /* 墨绿色背景 */
+    text-align: left; /* 文本左对齐 */
+    margin-right: 50px; /* 右侧外边距 50px */
+    border-right: 5px solid white; /* 右侧 5px 白色实线边框 */
+    border-top: 2px solid white; /* 顶部 2px 白色实线边框 */
+  }
+
+  footer {
+    background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%); /* 渐变背景 */
+    border: 5px solid white; /* 5px 白色实线边框 */
+    color: white; /* 设置文本颜色为白色，使其在背景上清晰可见 */
+  }
+
+  footer p {
+    font-size: 20px; /* 字体大小 20px */
+    text-align: right; /* 文本右对齐 */
+    padding-top: 15px; /* 顶部内边距 15px */
+    padding-right: 15px; /* 右侧内边距 15px */
+    padding-bottom: 15px; /* 底部内边距 15px */
+    padding-left: 0; /* 左侧无内边距 */
+  }
